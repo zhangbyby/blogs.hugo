@@ -2,6 +2,7 @@
 date = '2024-12-13T19:14:55+08:00'
 draft = false
 title = 'Java-invokedynamic字节码指令'
+tags = ["Java"]
 +++
 
 我只知道JVM中有5个invoke字节码指令，但是对常用的lambda表达式相关的`invokedynamic`知之甚少，所以在初步了解之后，简单整理了一下这写内容。
