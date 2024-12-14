@@ -1,0 +1,43 @@
+baseURL: "https://zhangbyby.github.io/blogs.hugo/"
+languageCode: "zh-cn"
+title: "By笔记"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 8
+
+params:
+  contact:
+    email: zhangbyby@outlook.com
+  env: production
+  title: "By笔记"
+  keywords: [Blog, Java]
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+
+pygmentsUseClasses: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Tags
+      url: /tags/
+      weight: 10
