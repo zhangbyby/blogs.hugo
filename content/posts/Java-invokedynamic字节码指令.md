@@ -328,3 +328,5 @@ final class MainExplain$$Lambda implements Function {
 ```
 
 可以看到invoke方法可以理解成调用这个动态类的构造函数，content会被存放到final关键词修饰的成员变量中。然后apply方法执行时，会自动添加自身的final成员变量作为方法的参数。
+
+> 参考: https://www.baeldung.com/java-invoke-dynamic
